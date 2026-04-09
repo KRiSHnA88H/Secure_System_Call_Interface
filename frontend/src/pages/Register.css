@@ -1,0 +1,35 @@
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(88, 101, 242, 0.06);
+  border: 1px solid rgba(88, 101, 242, 0.15);
+  border-radius: 8px;
+}
+
+.info-card-icon { font-size: 1.1rem; }
+
+.info-card-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-1);
+  margin-bottom: 0.1rem;
+}
+
+.info-card-desc {
+  font-size: 0.72rem;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+}
+
+.input-mismatch {
+  border-color: var(--error) !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
+}
